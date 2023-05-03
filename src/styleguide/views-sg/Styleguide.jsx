@@ -16,7 +16,22 @@ export default function Styleguide() {
 
       <div className="section">
         <h3>Variable Colors</h3>
-        <div></div>
+        <div className="color__circle">
+          <p>50</p>
+          <p>#FDEDE7</p>
+        </div>
+        <div className="color__circle">
+          <p>100</p>
+          <p>#FCDCCF</p>
+        </div>
+        <div className="color__circle">
+          <p>200</p>
+          <p>#F9B99F</p>
+        </div>
+        <div className="color__circle">
+          <p>300</p>
+          <p>##F7A787</p>
+        </div>
       </div>
       <Nav />
       <Buttons />
