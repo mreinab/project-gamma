@@ -1,0 +1,58 @@
+.section__colors {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.color__circle { 
+    height: 120px;
+    width: 120px;
+    border-radius: 57px;
+
+    &--mo-50 {
+        background-color: var(--mandarin_orange-50);
+    }
+
+    &--mo-100 {
+        background-color: var(--mandarin_orange-100);
+    }
+
+    &--mo-200 {
+        background-color: var(--mandarin_orange-200);
+    }
+
+    &--mo-300 {
+        background-color: var(--mandarin_orange-300);
+    }
+
+    &--mo-400 {
+        background-color: var(--mandarin_orange-400);
+    }
+
+    &--mo-500 {
+        background-color: var(--mandarin_orange-500);
+    }
+
+    &--mo-600 {
+        background-color: var(--mandarin_orange-600);
+    }  
+
+    &--mo-700 {
+        color: white;
+        background-color: var(--mandarin_orange-700);
+    }
+
+    &--mo-800 {
+        color: white;
+        background-color: var(--mandarin_orange-800);
+    }
+
+    &--mo-900 {
+        color: white;
+        background-color: var(--mandarin_orange-900);
+    }
+}
+
