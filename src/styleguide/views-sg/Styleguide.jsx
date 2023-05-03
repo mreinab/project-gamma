@@ -13,6 +13,11 @@ export default function Styleguide() {
         <h5>soy un h5</h5>
         <h6>soy un h6</h6>
       </div>
+
+      <div className="section">
+        <h3>Variable Colors</h3>
+        <div></div>
+      </div>
       <Nav />
       <Buttons />
     </>
