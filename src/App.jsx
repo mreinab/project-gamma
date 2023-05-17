@@ -4,7 +4,7 @@ import Home from "./views/Home";
 import Contact from "./views/contact/Contact";
 import Styleguide from "./styleguide/views-sg/Styleguide";
 import "./App.css";
-import "./scss/style.scss";
+import "./scss/global.scss";
 
 function App() {
   return (

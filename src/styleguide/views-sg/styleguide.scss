@@ -1,7 +1,7 @@
+/* Colors Variable*/
+
 .section__colors {
-    width: 80%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 8px;
@@ -9,8 +9,9 @@
 
 .color__circle { 
     height: 120px;
-    width: 120px;
+    width: 140px;
     border-radius: 57px;
+    font-family: 'Oswald', sans-serif;
 
     &--mo-50 {
         background-color: var(--mandarin_orange-50);
@@ -56,3 +57,6 @@
     }
 }
 
+/* Fonts*/
+
+/*Title*/

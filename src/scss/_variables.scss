@@ -1,9 +1,9 @@
-/*Color variables*/
+/*Color variables personalizadas para css*/
 :root {
     --mandarin_orange-50: #FDEDE7;
     --mandarin_orange-100:#FCDCCF;
     --mandarin_orange-200:#F9B99F;
-    --mandarin_orange-300:#F7A787;
+    --mandarin_orange-300:#F7A787;  
     --mandarin_orange-400:#F6956F;
     --mandarin_orange-500:#F3733F;
     --mandarin_orange-600:#F04F0F;
@@ -11,3 +11,81 @@
     --mandarin_orange-800:#902F09;
     --mandarin_orange-900:#602006;
 }
+
+
+/*Variable colors, variables personalizadas para sass*/
+$mandarin_orange-50: #FDEDE7;
+$mandarin_orange-100: #FCDCCF; 
+$mandarin_orange-200: #F9B99F;
+$mandarin_orange-300:#F7A787;  
+$mandarin_orange-400:#F6956F;
+$mandarin_orange-500:#F3733F;
+$mandarin_orange-600:#F04F0F;
+$mandarin_orange-700:#C03F0C;
+$mandarin_orange-800:#902F09;
+$mandarin_orange-900:#602006;
+
+/*Font variable*/
+$font-primary: 'Oswald', sans-serif;
+$font-secundary: 'Roboto', sans-serif;
+
+
+
+/*Mapa de variables de colores, esto me servirá para hacer un bucle, para hacer esto, previo he hecho una declaración de variables (linea 26)*/
+/*Funciona como un objeto de javascript*/   
+$colors: (
+  "mandarin_orange-50": $mandarin_orange-50,
+  "mandarin_orange-100": $mandarin_orange-100,
+  "mandarin_orange-200": $mandarin_orange-200,
+  "mandarin_orange-300": $mandarin_orange-300,
+  "mandarin_orange-400": $mandarin_orange-400,
+  "mandarin_orange-500": $mandarin_orange-500,
+  "mandarin_orange-600": $mandarin_orange-600,
+  "mandarin_orange-700": $mandarin_orange-700,
+  "mandarin_orange-800": $mandarin_orange-800,
+  "mandarin_orange-900": $mandarin_orange-900,
+);
+
+/*bucle each, la llave i será la que recorra el mapa*/
+
+/*mapa para el background*/
+@each $color, $i in $colors {
+    .text-#{$color} {
+        color: $i;
+    }
+    .bg-#{$color} {
+        background-color: $i;
+    }
+    }
+}
+
+
+/* esto es para crear un grid, usando un bucle for*/
+$grid: 4;
+$gap: 8px;
+$grid-margin: $gap;
+
+
+
+.grid {
+  display: flex;
+  width: 100%;
+  gap: $gap;
+  margin-bottom: $grid-margin;
+}
+
+    [class^="grid__item--"] {
+        height: 50px;
+        background-color: pink;
+    }
+    
+@for $i from 1 through 12 {
+    .grid__item---#{$i} {
+        flex: 0 0 (($i / $grid) * 100%);
+    }
+}
+
+
+
+
+
