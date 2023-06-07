@@ -1,5 +1,14 @@
 @import "./scss/global.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
+  scroll-behavior: smooth;
+
   font-size: 19px; /* Tamaño de fuente raíz */
 
   background-color: $primary-color-white-chalk-60;
@@ -9,6 +18,7 @@ html {
     text-decoration: none;
     color: $primary-color-blue-light-60;
     font-size: $font-size-h1; 
+    padding-bottom: 53rem;
     }
 
   h1 {

@@ -3,8 +3,11 @@ import { Link, Route, Routes } from "react-router-dom";
 import Home from "./views/Home";
 import About from "./views/about/About";
 import Skills from "./views/skills/Skills";
-import RecentDesigns from "./views/my work/RecentDesings";
+import RecentDesigns from "./views/recentdesigns/RecentDesings";
 import Contact from "./views/contact/Contact";
+
+import ScrollBar from "../src/components/scrollbar/ScrollBar";
+
 import "./App.css";
 import "./scss/global.scss";
 
@@ -28,6 +31,11 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </main>
+
+      <div>
+        {/* Otro contenido */}
+        <ScrollBar />
+      </div>
     </>
   );
 }
