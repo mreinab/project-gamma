@@ -11,7 +11,7 @@ import "./Topbar.scss";
 function Topbar() {
   return (
     <>
-      <header>
+      <header className="topbar__nav">
         <Link to="/Home">Home</Link>
         <Link to="/About">about</Link>
         <Link to="/Skills">skills</Link>

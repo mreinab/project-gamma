@@ -1,3 +1,7 @@
 @import '/src/scss/mixins.scss';
 
-
+a {
+    color: $primary-color-yellow-neon-60;
+    padding-left: $margin-2-5;
+    align-items: right;
+  }

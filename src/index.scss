@@ -12,7 +12,6 @@ html {
 
 body {
   font-size: 19px; /* Tamaño de fuente raíz */
-  background-color: $primary-color-white-chalk-60;
   color: $primary-color-blue-dark-60;
   font-family: $font-primary;
 }
@@ -40,11 +39,9 @@ img {
 
 a {
   text-decoration: none;
-  color: $primary-color-blue-light-60;
     
 
   font-size: $font-size-h1; 
-  padding-bottom: 53rem;
 }
 
 $font-sizes: ( /*lista de variables*/
