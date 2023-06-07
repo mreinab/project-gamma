@@ -1,14 +1,13 @@
+/*========== BREAKPOINTS ==========*/
 
+/* large devices */
+@media screen and (max-width: 992px) {
+};
 
-/*bucle each, la llave i será la que recorra el mapa*/
+/* medium devices */
+@media screen and (max-width: 768px) {
+};
 
-
-/*mapa para el background*/
-@each $color, $i in $colors {
-    .text-#{$color} {
-        color: $i;
-    }
-    .bg-#{$color} {
-        background-color: $i;
-    }
-  }
+/* large devices */
+@media screen and (max-width: 576px) {
+};

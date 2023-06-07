@@ -8,40 +8,56 @@
 
 html {
   scroll-behavior: smooth;
+}
 
+body {
   font-size: 19px; /* Tamaño de fuente raíz */
-
   background-color: $primary-color-white-chalk-60;
   color: $primary-color-blue-dark-60;
   font-family: $font-primary;
-  a {
-    text-decoration: none;
-    color: $primary-color-blue-light-60;
-    font-size: $font-size-h1; 
-    padding-bottom: 53rem;
-    }
+}
 
-  h1 {
-    font-size: $font-size-h1;
-  }
+button, 
+input, 
+textarea {
+  font-size: $font-size-default;
+}
 
-  h2 {
-    font-size: $font-size-h2;
-  }
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
 
-  h3 {
-    font-size: $font-size-h3;
-  }
+ul {
+  list-style: none;
+}
 
-  h4 {
-    font-size: $font-size-h4;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  h5 {
-    font-size: $font-size-h5;
-  }
+a {
+  text-decoration: none;
+  color: $primary-color-blue-light-60;
+    
 
-  h6 {
-    font-size: $font-size-h6;
+  font-size: $font-size-h1; 
+  padding-bottom: 53rem;
+}
+
+$font-sizes: ( /*lista de variables*/
+    h1: $font-size-h1,
+    h2: $font-size-h2,
+    h3: $font-size-h3,
+    h4: $font-size-h4,
+    h5: $font-size-h5,
+    h6: $font-size-h6
+);
+
+@each $heading, $font-size in $font-sizes { /*bucle para la lista de headings*/
+  #{$heading} {
+    font-size: $font-size;
   }
 }

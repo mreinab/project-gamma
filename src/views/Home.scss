@@ -1,0 +1,6 @@
+@import "../scss/variables";
+@import "../scss/mixins.scss";
+
+.section__title {
+    @include section__title($primary-color-blue-light-60);
+  }
