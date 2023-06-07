@@ -1,0 +1,14 @@
+
+
+/*bucle each, la llave i será la que recorra el mapa*/
+
+
+/*mapa para el background*/
+@each $color, $i in $colors {
+    .text-#{$color} {
+        color: $i;
+    }
+    .bg-#{$color} {
+        background-color: $i;
+    }
+  }
