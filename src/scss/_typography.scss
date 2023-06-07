@@ -4,17 +4,29 @@
 }
 
 @font-face {
-    font-family: 'Oswald', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    font-family: 'Nanum Gothic Coding', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 }
 
-// Creación de variables de tipografía
-
-$font-size-small: 14px;
-$font-size-default: 50px;
-$font-size-big: 24px;
+/*========== FONT VARIABLE SASS ==========*/
+$font-primary: 'Nanum Gothic Coding', monospace;
+$font-secundary: 'Roboto', sans-serif;
 
 
+/*========== FONT SIZE VARIABLE SASS ==========*/
+$font-size-xsmall: 0.9rem;
+$font-size-small: 0.95rem;
+$font-size-default: 1rem;
+$font-size-big: 1.05rem;
+$font-size-xbig: 1.1rem;
 
-$font-size-h1: $font-size-big;
-$font-size-h6: $font-size-big;
+
+$font-size-h1: $font-size-xbig;
+$font-size-h2: $font-size-big;
+$font-size-h3: $font-size-default;
+$font-size-h4: $font-size-small;
+$font-size-h5: $font-size-xsmall;
+$font-size-h6: $font-size-xsmall;
+
+
+
