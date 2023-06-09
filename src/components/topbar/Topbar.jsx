@@ -12,11 +12,25 @@ function Topbar() {
   return (
     <>
       <header className="topbar__nav">
-        <Link to="/Home">Home</Link>
-        <Link to="/About">about</Link>
-        <Link to="/Skills">skills</Link>
-        <Link to="/RecentDesigns">recent designs</Link>
-        <Link to="/Contact">contact</Link>
+        <nav className="nav__container">
+          <div className="nav__container--logo">
+            <a href="/Home">
+              <img
+                src="./src/assets/logo.svg"
+                alt="Site logo, Miriam Reina digital portfolio"
+                className="main__logo"
+              />
+            </a>
+          </div>
+
+          <div className="nav__container--topbar">
+            <Link to="/Home">home</Link>
+            <Link to="/About">about</Link>
+            <Link to="/Skills">skills</Link>
+            <Link to="/RecentDesigns">recent designs</Link>
+            <Link to="/Contact">contact</Link>
+          </div>
+        </nav>
       </header>
       <main>
         <Routes>

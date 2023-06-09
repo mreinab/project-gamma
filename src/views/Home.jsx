@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "../views/Home.scss";
 import Topbar from "../components/topbar/Topbar";
+import Eclipse from "../components/Eclipse/Eclipse";
 
 export default function Home() {
   return (
@@ -11,29 +12,11 @@ export default function Home() {
         </video>
       </span>
 
-      <div className="section__topbar__nav">
-        <img
-          src="./src/assets/logo.svg"
-          alt="Site logo, Miriam Reina digital portfolio"
-          className="main__logo"
-        />
-
-        <div className="topbar__nav">
-          <Topbar />
-        </div>
-      </div>
+      <Eclipse />
 
       {/* <section className="section__container">
         <div className="section__title">_about me_</div>
       </section> */}
-
-      <div className="main--eclipse">
-        <img
-          src="./src/assets/main-eclipse.svg"
-          alt="Eclipse"
-          className="eclipse"
-        />
-      </div>
     </body>
   );
 }

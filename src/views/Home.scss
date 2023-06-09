@@ -6,7 +6,7 @@
 }
 
 .main__video {
-  z-index: -5;
+  z-index: -10;
   position: absolute;
   width: 100vw;
   height: auto;
@@ -17,27 +17,6 @@
   background-blend-mode: multiply, normal;
 }
 
-.section__topbar__nav {
-padding-top: $margin-2-5;
-
-display: flex;
-flex-direction: row;
-align-items: center;
-
-position: absolute;
-}
-
-.main--eclipse {
-  width: 100vw;
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.eclipse {
- width: 40%;
-}
 /* .section__title {
     @include section__title($primary-color-blue-light-60);
   } */

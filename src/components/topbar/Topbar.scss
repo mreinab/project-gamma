@@ -5,3 +5,18 @@ a {
     padding-left: $margin-2-5;
     align-items: right;
   }
+
+
+  .nav__container {
+    padding-top: $margin-2-5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5rem 10rem 0 10rem;
+    }
+
+  .nav__container--topbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }

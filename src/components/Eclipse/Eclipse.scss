@@ -1,0 +1,21 @@
+
+.main--circle {
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img--eclipse {
+   padding: 2.5rem;
+    width: 35%;
+  }
+  
+  .img--eclipse:hover {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.01) rotate(90deg);
+    transition: 1s ease;
+    
+  }
