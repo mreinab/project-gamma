@@ -3,27 +3,28 @@
 
 .aboutme__container {
     width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .aboutme__container--text {
-    width: 15rem;
+    width: 17rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .img__star {
     width: 40px;
 }
 
-.img__star .left {
+.img__star--left {
     display: flex;
     align-self: left;
 }
 
-.img__star .left {
+.img__star--right {
     display: flex;
-    align-self: flex-end;
+    align-self: end;
 }
 
 .bg__text--neon {
@@ -34,7 +35,9 @@
 
 
 .h3__section {
+    width: 14rem;
     color: $primary-color-blue-dark-60;
     font-size: $font-size-h3;
+    align-self: center;
 }
 

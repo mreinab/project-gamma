@@ -4,6 +4,7 @@ import Topbar from "../components/topbar/Topbar";
 import Eclipse from "../components/Eclipse/Eclipse";
 import BackgroundVideo from "../components/backgroundvideo/BackgroundVideo";
 import AboutMeIntro from "../components/AboutMeIntro/AboutMeIntro";
+import BtnMoreAbout from "../components/BtnMoreAbout/BtnMoreAbout";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </section>
 
       <AboutMeIntro />
+      <BtnMoreAbout />
     </body>
   );
 }
