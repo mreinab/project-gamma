@@ -34,6 +34,12 @@
   justify-content: flex-end;
 }
 
+.text__main__container--vertical {
+padding-top: 5rem;
+
+}
+
+
 .h3, .text {
   font-size: $font-size-h3;
   padding-left: 10rem;
@@ -42,6 +48,6 @@
 
 
 
-/* .section__title {
-    @include section__title($primary-color-blue-light-60);
-  } */
+.section__title {
+  padding-top: 20rem;
+  }

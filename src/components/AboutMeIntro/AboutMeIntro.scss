@@ -1,0 +1,40 @@
+@import "../../scss/variables";
+@import "../../scss/mixins.scss";
+
+.aboutme__container {
+    width: 100vw;
+}
+
+.aboutme__container--text {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img__star {
+    width: 40px;
+}
+
+.img__star .left {
+    display: flex;
+    align-self: left;
+}
+
+.img__star .left {
+    display: flex;
+    align-self: flex-end;
+}
+
+.bg__text--neon {
+    background-color: $primary-color-yellow-neon-60;
+    padding: 0 0.5rem;
+    font-size: $font-size-h2;
+}
+
+
+.h3__section {
+    color: $primary-color-blue-dark-60;
+    font-size: $font-size-h3;
+}
+

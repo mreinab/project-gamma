@@ -3,6 +3,7 @@ import "../views/Home.scss";
 import Topbar from "../components/topbar/Topbar";
 import Eclipse from "../components/Eclipse/Eclipse";
 import BackgroundVideo from "../components/backgroundvideo/BackgroundVideo";
+import AboutMeIntro from "../components/AboutMeIntro/AboutMeIntro";
 
 export default function Home() {
   return (
@@ -16,13 +17,15 @@ export default function Home() {
           <source src="../../src/assets/star1.mp4" type="video/mp4" />
         </video>
       </div>
-
-      <div className="h3 text--vertical"> 2023_ </div>
-      <div className="h3 text"> (Based in Málaga and Valencia, Spain) </div>
-
+      <div className="text__main__container--vertical">
+        <div className="h3 text--vertical"> 2023_ </div>
+        <div className="h3 text"> (Based in Málaga and Valencia, Spain) </div>
+      </div>
       <section className="section__container">
         <div className="section__title">_about me_</div>
       </section>
+
+      <AboutMeIntro />
     </body>
   );
 }
