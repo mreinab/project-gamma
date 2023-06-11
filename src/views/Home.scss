@@ -5,17 +5,6 @@
   background-color: $primary-color-white-chalk-60;
 }
 
-.main__video {
-  z-index: -10;
-  position: absolute;
-  width: 100vw;
-  height: auto;
-  left: 0px;
-  top: 0px;
-
-  background: linear-gradient(0deg, #b3883c, #FBE6C3);
-  background-blend-mode: multiply, normal;
-}
 
 /* .section__title {
     @include section__title($primary-color-blue-light-60);
