@@ -10,6 +10,8 @@
   .img--eclipse {
    padding: 2.5rem;
     width: 35%;
+    display: flex;
+    object-position: center;
   }
   
   .img--eclipse:hover {
@@ -18,4 +20,16 @@
     transform: scale(1.01) rotate(90deg);
     transition: 1s ease;
     
+  }
+
+  .img--eclipse:not(:hover) {
+
+    transform: scale(1.01) rotate(-0deg);
+    transition: 1s ease;
+    
+  }
+
+  .img--eclipse:active {
+    transform: scale(1.01) rotate(360deg);
+    transition: 0.5s ease-in-out;
   }

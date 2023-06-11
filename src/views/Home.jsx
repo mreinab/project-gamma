@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <body>
       <BackgroundVideo />
-      <img src="./favicon.ico"></img>
       <Eclipse />
       <div> hoal q pasa</div>
 
