@@ -6,6 +6,42 @@
 }
 
 
+.animation__container--star {
+  width: 100vw;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.animation--star {
+  width: auto;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  background-blend-mode: multiply;
+}
+
+.text--vertical {
+  padding-left: 10rem;
+  writing-mode: vertical-rl;
+  color: $primary-color-yellow-neon-60;
+
+  height: calc(100vh - 20rem);
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h3, .text {
+  font-size: $font-size-h3;
+  padding-left: 10rem;
+  color: $primary-color-yellow-neon-60;
+}
+
+
+
 /* .section__title {
     @include section__title($primary-color-blue-light-60);
   } */

@@ -1,15 +1,20 @@
 
 .main--circle {
+    position: absolute;
+
     width: 100vw;
-    height: 20%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .img--eclipse {
-   padding: 2.5rem;
+    position: relative;
+    z-index: 1;
+    
     width: 35%;
+    height: 60%;
     display: flex;
     object-position: center;
   }
@@ -17,19 +22,41 @@
   .img--eclipse:hover {
     display: flex;
     justify-content: center;
-    transform: scale(1.01) rotate(90deg);
+    transform: scale(1.01) rotate(270deg);
     transition: 1s ease;
     
   }
 
   .img--eclipse:not(:hover) {
 
-    transform: scale(1.01) rotate(-0deg);
-    transition: 1s ease;
+    transform: scale(1.01) rotate(0deg);
+    transition: 0.8s ease-in-out;
     
   }
 
   .img--eclipse:active {
-    transform: scale(1.01) rotate(360deg);
-    transition: 0.5s ease-in-out;
+    transform: scale(1.01) rotate(275deg);
+    transform: scale(1.1);
+    transition: 0.5s;
   }
+
+  .bg__img--container--lines--left {
+    position: absolute;
+    left: 0;
+    padding: 2rem;
+  }
+  
+  .bg__img--container--lines--right {
+    position: absolute;
+    right: 0;
+    padding-right: 2rem;
+  }
+
+  .bg__img--lines {
+    position: relative;
+    z-index: -49;
+  
+    display: flex;
+    object-position: center;
+  }
+  

@@ -8,8 +8,17 @@ export default function Home() {
   return (
     <body>
       <BackgroundVideo />
+
       <Eclipse />
-      <div> hoal q pasa</div>
+
+      <div className="animation__container--star">
+        <video autoPlay loop muted className="animation--star">
+          <source src="../../src/assets/star1.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div className="h3 text--vertical"> 2023_ </div>
+      <div className="h3 text"> (Based in Málaga and Valencia, Spain) </div>
 
       <section className="section__container">
         <div className="section__title">_about me_</div>
