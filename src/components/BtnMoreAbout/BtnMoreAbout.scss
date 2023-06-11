@@ -2,19 +2,31 @@
 
 
 
+.btn--centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
 
 .btn__moreabout--dark {
+    font-size: $font-size-h4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     background-color: $primary-color-blue-dark-60;
     color: $primary-color-white-chalk-60;
 
     font-family: $font-primary;
     
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.8rem;
     border-radius: 24px;
     
 }
 
 .btn__moreabout--dark:hover {
-    background-color: $color-blue-dark-20;
+    border: 1px solid $primary-color-yellow-neon-60 ;
+    background-color: $color-blue-dark-80;
     transform: scale(1.01);
 }
