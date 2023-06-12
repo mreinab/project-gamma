@@ -20,7 +20,6 @@
 
   display: flex;
   justify-content: center;
-  background-blend-mode: multiply;
 }
 
 .text--vertical {
@@ -50,4 +49,12 @@ padding-top: 5rem;
 
 .section__title {
   padding-top: 20rem;
+  }
+
+
+  .grid--30 {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+
   }
