@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="animation__container--star">
         <video autoPlay loop muted className="animation--star">
-          <source src="../../src/assets/star1.mp4" type="video/mp4" />
+          <source src="./star1.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="text__main__container--vertical">

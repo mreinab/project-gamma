@@ -8,7 +8,7 @@ function BtnMoreAbout() {
         <a href="/About" className="btn__moreabout--dark">
           {" "}
           more about
-          <img src="../../src/assets/arrow--right.svg"></img>{" "}
+          <img src="./arrow--right.svg"></img>{" "}
         </a>
       </div>
     </>

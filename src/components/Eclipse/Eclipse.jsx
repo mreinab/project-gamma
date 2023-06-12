@@ -5,7 +5,7 @@ function Eclipse() {
   return (
     <div className="main--circle">
       <div className="bg__img--container--lines--left">
-        <img src="../../src/assets/main-lines.svg" className="bg__img--lines" />
+        <img src="./main-lines.svg" className="bg__img--lines" />
       </div>
 
       <img
@@ -15,7 +15,7 @@ function Eclipse() {
       />
 
       <div className="bg__img--container--lines--right">
-        <img src="../../src/assets/main-lines.svg" className="bg__img--lines" />
+        <img src="./main-lines.svg" className="bg__img--lines" />
       </div>
     </div>
   );
