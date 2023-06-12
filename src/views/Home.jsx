@@ -9,6 +9,9 @@ import Availability from "../components/Availability/Availability";
 import SkillsRoundText from "../components/SkillsRoundText/SkillsRoundText";
 import IconSide from "../components/IconSide/IconSide";
 import SectionLines from "../components/SectionLines/SectionLines";
+import FrontEnd from "../components/OneCard/FrontEnd";
+import Design from "../components/OneCard/Design";
+import SoftSkills from "../components/OneCard/SoftSkills";
 
 export default function Home() {
   return (
@@ -27,7 +30,9 @@ export default function Home() {
         <div className="h3 text"> (Based in Málaga and Valencia, Spain) </div>
       </div>
       <section className="section__container--AM">
-        <div className="section__title">_about me_</div>
+        <div className="section__title" id="rem">
+          _about me_
+        </div>
       </section>
 
       <AboutMeIntro />
@@ -49,6 +54,12 @@ export default function Home() {
       <section className="section__container--AM">
         <div className="section__title">_my skills_</div>
       </section>
+
+      <div className="cards">
+        <FrontEnd />
+        <Design />
+        <SoftSkills />
+      </div>
     </body>
   );
 }

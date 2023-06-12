@@ -45,8 +45,3 @@ $font-sizes: ( /*lista de variables*/
     h6: $font-size-h6
 );
 
-@each $heading, $font-size in $font-sizes { /*bucle para la lista de headings*/
-  #{$heading} {
-    font-size: $font-size;
-  }
-}

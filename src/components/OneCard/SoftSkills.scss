@@ -1,0 +1,12 @@
+@import "../../scss/variables";
+
+.softskills--card {
+position: relative;
+width: 19%;
+}
+
+.softskills--card:hover {
+    transform: scale(1.1);
+    transition: 0.15s ease-in-out;
+    filter: contrast(1.1);
+}

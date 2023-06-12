@@ -47,10 +47,9 @@ padding-top: 5rem;
 
 
 /*Section Component */
-.section__title {
-  padding-top: 10rem;
+#rem {
+  padding-top: 10rem !important;
   }
-
 
 
 /*SkillsRoundText Component */
@@ -76,4 +75,15 @@ padding-top: 5rem;
 /*LLine dision Component */
 .section__division {
   position: relative;
+}
+
+
+/*Cards section*/
+.cards {
+  height: 50%;
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
 }

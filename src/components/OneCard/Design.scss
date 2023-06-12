@@ -1,0 +1,38 @@
+@import "../../scss/variables";
+
+
+.maincontainer {
+    position: relative;
+    width: 19rem;
+    height: 25rem;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.thecard:hover {
+    transform: scale(1.1) rotateY(180deg);
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: url(../../../public/card-design.svg);
+}
+
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: url(../../../public/card-frontend.svg);
+    transform: rotateY(180deg);
+}
