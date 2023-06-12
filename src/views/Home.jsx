@@ -12,6 +12,7 @@ import SectionLines from "../components/SectionLines/SectionLines";
 import FrontEnd from "../components/OneCard/FrontEnd";
 import Design from "../components/OneCard/Design";
 import SoftSkills from "../components/OneCard/SoftSkills";
+import BtnMoreAboutLight from "../components/BtnMoreAboutLight/BtnMoreAboutLight";
 
 export default function Home() {
   return (
@@ -54,30 +55,40 @@ export default function Home() {
       <section className="section__container--AM">
         <div className="section__title">_my skills_</div>
       </section>
+      <div className="cards__container">
+        <div className="cards">
+          <div className="stars__container">
+            <img
+              src="./star-6.svg"
+              alt="star svg"
+              className="img__star--left"
+            />
+            <img
+              src="./star-3.svg"
+              alt="star svg"
+              className="img__star--center"
+            />
+            <img
+              src="./star-7.svg"
+              alt="star svg"
+              className="img__star--right"
+            />
+          </div>
 
-      <div className="cards">
-        <div className="stars__container">
-          <img src="./star-6.svg" alt="star svg" className="img__star--left" />
-          <img
-            src="./star-3.svg"
-            alt="star svg"
-            className="img__star--center"
-          />
-          <img src="./star-7.svg" alt="star svg" className="img__star--right" />
+          <div className="card__titles">
+            <p className="titles--cards">_frontend_</p>
+            <FrontEnd />
+          </div>
+          <div className="card__titles">
+            <p className="titles--cards">_design_</p>
+            <Design />
+          </div>
+          <div className="card__titles">
+            <p className="titles--cards">_soft skills_</p>
+            <SoftSkills />
+          </div>
         </div>
-
-        <div className="card__titles">
-          <p className="titles--cards">_frontend_</p>
-          <FrontEnd />
-        </div>
-        <div className="card__titles">
-          <p className="titles--cards">_design_</p>
-          <Design />
-        </div>
-        <div className="card__titles">
-          <p className="titles--cards">_soft skills_</p>
-          <SoftSkills />
-        </div>
+        <BtnMoreAboutLight className="color--lighter" />
       </div>
     </body>
   );

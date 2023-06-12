@@ -79,6 +79,13 @@ padding-top: 5rem;
 
 
 /*Cards section*/
+
+.cards__container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
 .cards {
   height: 50%;
   padding: 5rem 10rem;
@@ -110,4 +117,8 @@ padding-top: 5rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.color--lighter {
+  background-color: $primary-color-blue-light-60;
 }
