@@ -9,10 +9,6 @@
     transform: rotate(-17deg);
 }
 
-.availability__container:hover {
-    filter: drop-shadow(0px 4px 4px $color-yellow-neon-70);
-}
-
 .availability__container-above {
     position: absolute;
     display: flex;

@@ -46,15 +46,28 @@ padding-top: 5rem;
 }
 
 
-
+/*Section Component */
 .section__title {
   padding-top: 20rem;
   }
 
 
-  .grid--30 {
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
 
-  }
+/*SkillsRoundText Component */
+.grid--30 {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+/*SkillsRoundText Component */
+
+.grid--100 {
+  position: absolute;
+  width: 100%;
+  padding-right: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

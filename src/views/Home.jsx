@@ -7,6 +7,7 @@ import AboutMeIntro from "../components/AboutMeIntro/AboutMeIntro";
 import BtnMoreAbout from "../components/BtnMoreAbout/BtnMoreAbout";
 import Availability from "../components/Availability/Availability";
 import SkillsRoundText from "../components/SkillsRoundText/SkillsRoundText";
+import IconSide from "../components/IconSide/IconSide";
 
 export default function Home() {
   return (
@@ -34,6 +35,10 @@ export default function Home() {
 
       <div className="grid--30">
         <SkillsRoundText />
+      </div>
+
+      <div className="grid--100">
+        <IconSide />
       </div>
     </body>
   );

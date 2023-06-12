@@ -18,9 +18,7 @@ function SkillsRoundText() {
   return (
     <div className="circle">
       <div className="img__star--rounded"></div>
-      <div className="text--rounded">
-        <p>| functionality | vision | creativity | vision </p>
-      </div>
+      <div className="text--rounded"></div>
     </div>
   );
 }
