@@ -5,7 +5,7 @@ function BtnMoreAboutLight() {
   return (
     <>
       <div className="btn--centered">
-        <a href="/About" className="btn__moreabout--light">
+        <a href="/Skills" className="btn__moreabout--light">
           {" "}
           more about
           <img src="./arrow--right-dark.svg"></img>{" "}

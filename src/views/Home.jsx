@@ -7,12 +7,13 @@ import AboutMeIntro from "../components/AboutMeIntro/AboutMeIntro";
 import BtnMoreAbout from "../components/BtnMoreAbout/BtnMoreAbout";
 import Availability from "../components/Availability/Availability";
 import SkillsRoundText from "../components/SkillsRoundText/SkillsRoundText";
-import IconSide from "../components/IconSide/IconSide";
+import IconSideStar from "../components/IconSideStar/IconSideStar";
 import SectionLines from "../components/SectionLines/SectionLines";
 import FrontEnd from "../components/OneCard/FrontEnd";
 import Design from "../components/OneCard/Design";
 import SoftSkills from "../components/OneCard/SoftSkills";
 import BtnMoreAboutLight from "../components/BtnMoreAboutLight/BtnMoreAboutLight";
+import IconSideMoon from "../components/IconSideMoon/IconSideMoon";
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
       </div>
 
       <div className="grid--100">
-        <IconSide />
+        <IconSideStar />
       </div>
 
       <div className="section__division">
@@ -55,6 +56,7 @@ export default function Home() {
       <section className="section__container--AM">
         <div className="section__title">_my skills_</div>
       </section>
+
       <div className="cards__container">
         <div className="cards">
           <div className="stars__container">
@@ -90,6 +92,18 @@ export default function Home() {
         </div>
         <BtnMoreAboutLight className="color--lighter" />
       </div>
+
+      <div className="grid--100">
+        <IconSideMoon />
+      </div>
+
+      <div className="section__division">
+        <SectionLines />
+      </div>
+
+      <section className="section__container--AM">
+        <div className="section__title">_recent work_</div>
+      </section>
     </body>
   );
 }
