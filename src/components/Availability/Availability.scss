@@ -1,41 +1,44 @@
 @import "../../scss/variables";
 
 .availability__container {
-    width: 35rem;
-    height: 7rem;
     display: flex;
 
     align-items: center;
     justify-content: center;
 
-    position: absolute;
-
     transform: rotate(-17deg);
+}
+
+.availability__container:hover {
+    filter: drop-shadow(0px 4px 4px $color-yellow-neon-70);
 }
 
 .availability__container-above {
     position: absolute;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 1rem;
 }
 
 .img--rounded {
+    object-position: center;
+    width: 20rem;
     z-index: -1;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
 }
 
 
-.availability__container {
-    width: 75vw;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    position: absolute;
-    padding: 0 40rem 0 80rem;
-  }
-  
+
   .availability__container-above, .img--rounded {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-80%, -130%);
+    transform: translate(5vw, 5vh);
+  }
+
+  .availability__text {
+    font-size: $font-size-h3;
+    color: $primary-color-blue-dark-60;
+  }
+
+  .smaller {
+    width: 1.5rem;
   }

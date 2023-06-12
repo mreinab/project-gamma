@@ -3,18 +3,18 @@ import "../Availability/Availability.scss";
 
 function Availability() {
   return (
-    <div className="availability__container">
+    <a className="availability__container">
       <div className="availability__container-above">
         <img
-          className="img__star img__star--left"
-          src="../../src/assets/star-1.svg"
+          className="img__star img__star--left smaller"
+          src="../../src/assets/star-2.svg"
         ></img>
-        <p className="availability__text h3">
+        <p className="availability__text">
           currently <b>available </b> <br></br>for freelance worldwide.
         </p>
         <img
-          className="img__star img__star--left"
-          src="../../src/assets/star-1.svg"
+          className="img__star img__star--left smaller"
+          src="../../src/assets/star-2.svg"
         ></img>
       </div>
 
@@ -22,7 +22,7 @@ function Availability() {
         src="../../src/assets/rounded-freelance.svg"
         className="img--rounded"
       ></img>
-    </div>
+    </a>
   );
 }
 
