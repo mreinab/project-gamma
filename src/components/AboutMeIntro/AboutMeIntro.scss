@@ -14,17 +14,22 @@
 }
 
 .img__star {
-    width: 40px;
+    width: 2rem;
 }
 
 .img__star--left {
     display: flex;
     align-self: left;
+    justify-content: flex-start;
+    width: 3rem;
+
 }
 
 .img__star--right {
     display: flex;
     align-self: end;
+    justify-content: flex-end;
+    width: 3rem;
 }
 
 .bg__text--neon {

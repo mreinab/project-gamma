@@ -56,9 +56,28 @@ export default function Home() {
       </section>
 
       <div className="cards">
-        <FrontEnd />
-        <Design />
-        <SoftSkills />
+        <div className="stars__container">
+          <img src="./star-6.svg" alt="star svg" className="img__star--left" />
+          <img
+            src="./star-3.svg"
+            alt="star svg"
+            className="img__star--center"
+          />
+          <img src="./star-7.svg" alt="star svg" className="img__star--right" />
+        </div>
+
+        <div className="card__titles">
+          <p className="titles--cards">_frontend_</p>
+          <FrontEnd />
+        </div>
+        <div className="card__titles">
+          <p className="titles--cards">_design_</p>
+          <Design />
+        </div>
+        <div className="card__titles">
+          <p className="titles--cards">_soft skills_</p>
+          <SoftSkills />
+        </div>
       </div>
     </body>
   );
