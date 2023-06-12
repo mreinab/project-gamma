@@ -6,8 +6,8 @@ function Design() {
     <>
       <div className="maincontainer">
         <div className="thecard">
-          <img src="./public/card-design.svg" className="thefront"></img>
-          <img src="./public/card-frontend.svg" className="theback"></img>
+          <img src="./card-design.svg" className="thefront"></img>
+          <img src="./card-frontend.svg" className="theback"></img>
         </div>
       </div>
     </>
