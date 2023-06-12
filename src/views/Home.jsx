@@ -8,6 +8,7 @@ import BtnMoreAbout from "../components/BtnMoreAbout/BtnMoreAbout";
 import Availability from "../components/Availability/Availability";
 import SkillsRoundText from "../components/SkillsRoundText/SkillsRoundText";
 import IconSide from "../components/IconSide/IconSide";
+import SectionLines from "../components/SectionLines/SectionLines";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         <div className="h3 text--vertical"> 2023_ </div>
         <div className="h3 text"> (Based in Málaga and Valencia, Spain) </div>
       </div>
-      <section className="section__container">
+      <section className="section__container--AM">
         <div className="section__title">_about me_</div>
       </section>
 
@@ -40,6 +41,14 @@ export default function Home() {
       <div className="grid--100">
         <IconSide />
       </div>
+
+      <div className="section__division">
+        <SectionLines />
+      </div>
+
+      <section className="section__container--AM">
+        <div className="section__title">_my skills_</div>
+      </section>
     </body>
   );
 }
