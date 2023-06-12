@@ -1,12 +1,36 @@
 @import "../../scss/variables";
 
-.softskills--card {
-position: relative;
-width: 19%;
+
+.maincontainer {
+    position: relative;
+    width: 19rem;
+    height: 20rem;
 }
 
-.softskills--card:hover {
-    transform: scale(1.1);
-    transition: 0.15s ease-in-out;
-    filter: contrast(1.1);
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.thecard:hover {
+    transform: scale(1.3) rotateY(180deg);
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
 }

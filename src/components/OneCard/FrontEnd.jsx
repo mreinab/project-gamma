@@ -4,10 +4,12 @@ import "./FrontEnd.scss";
 function FrontEnd() {
   return (
     <>
-      <img
-        src="../../public/card-frontend.svg"
-        className="frontend--card"
-      ></img>
+      <div className="maincontainer">
+        <div className="thecard">
+          <img src="./card-frontend.svg" className="thefront"></img>
+          <img src="./card-frontend.svg" className="theback"></img>
+        </div>
+      </div>
     </>
   );
 }

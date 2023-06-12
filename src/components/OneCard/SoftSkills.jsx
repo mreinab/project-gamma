@@ -4,10 +4,12 @@ import "./SoftSkills.scss";
 function SoftSkills() {
   return (
     <>
-      <img
-        src="../../public/card-softskills.svg"
-        className="softskills--card"
-      ></img>
+      <div className="maincontainer">
+        <div className="thecard">
+          <img src="./card-softskills.svg" className="thefront"></img>
+          <img src="./card-frontend.svg" className="theback"></img>
+        </div>
+      </div>
     </>
   );
 }
