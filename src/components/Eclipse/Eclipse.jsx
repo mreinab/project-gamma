@@ -8,11 +8,7 @@ function Eclipse() {
         <img src="./main-lines.svg" className="bg__img--lines" />
       </div>
 
-      <img
-        src="./src/assets/main-eclipse2.svg"
-        alt="Eclipse"
-        className="img--eclipse"
-      />
+      <img src="./main-eclipse2.svg" alt="Eclipse" className="img--eclipse" />
 
       <div className="bg__img--container--lines--right">
         <img src="./main-lines.svg" className="bg__img--lines" />

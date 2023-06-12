@@ -16,7 +16,7 @@ function Topbar() {
           <div className="nav__container--logo">
             <a href="/Home">
               <img
-                src="./src/assets/logo.svg"
+                src="./logo.svg"
                 alt="Site logo, Miriam Reina digital portfolio"
                 className="main__logo"
               />
