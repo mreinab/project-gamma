@@ -19,6 +19,10 @@
     transform: scale(1.3) rotateY(180deg);
 }
 
+.thecard:active {
+    transform: scale(1.3) rotateY(180deg);
+}
+
 .thefront {
     position: absolute;
     width: 100%;
