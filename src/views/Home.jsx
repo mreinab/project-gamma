@@ -5,6 +5,7 @@ import Eclipse from "../components/Eclipse/Eclipse";
 import BackgroundVideo from "../components/backgroundvideo/BackgroundVideo";
 import AboutMeIntro from "../components/AboutMeIntro/AboutMeIntro";
 import BtnMoreAbout from "../components/BtnMoreAbout/BtnMoreAbout";
+import Availability from "../components/Availability/Availability";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
 
       <AboutMeIntro />
       <BtnMoreAbout />
+      <Availability />
     </body>
   );
 }

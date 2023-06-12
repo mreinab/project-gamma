@@ -9,14 +9,14 @@ function AboutMeIntro() {
           className="img__star img__star--left"
           src="../../src/assets/star-1.svg"
         ></img>
-        <div className="h3__section">
+        <p className="h3__section">
           Hey!! My name is <b>Miriam</b>. I am a{" "}
           <b>
             <span className="bg__text--neon">multidisciplinar </span> designer.
             I create unconventional yet functional & visualy pleasing interfaces
           </b>{" "}
           for mobile and web.
-        </div>
+        </p>
         <img
           className="img__star img__star--right"
           src="../../src/assets/star-2.svg"
