@@ -16,6 +16,7 @@ import BtnMoreAboutLight from "../components/BtnMoreAboutLight/BtnMoreAboutLight
 import IconSideMoon from "../components/IconSideMoon/IconSideMoon";
 import BoxWork from "../components/BoxWork/BoxWork";
 import ContactForm from "../components/ContactForm/ContactForm";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -137,6 +138,10 @@ export default function Home() {
       <section className="section__container--AM">
         <div className="section__title">_contact _</div>
       </section>
+
+      <ContactForm />
+
+      <Footer />
     </body>
   );
 }

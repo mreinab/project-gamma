@@ -1,0 +1,53 @@
+@import "../../scss/variables";
+.footer {
+    margin: 5rem 0rem 0rem 0rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: -9999; /* Asegura que el footer esté por encima de otros elementos */
+}
+  
+  .overlay {
+    position: absolute;
+  }
+  
+  .overlay1 {
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .overlay2 {
+    z-index: -40;
+  }
+
+  .overlay__img {
+    z-index: -40;
+    display: flex;
+    width: 100vw;
+    height: 15%;
+  }
+  
+  .overlay3 {
+    z-index: -1;
+  }
+
+.smaller-footer {
+    width: 250%;
+}
+  .footer-text {
+
+    margin-top: 5rem;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+
+  }

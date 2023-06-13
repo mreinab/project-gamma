@@ -1,8 +1,6 @@
 @import '../../scss/variables';
 
 .contact__text {
-    width: 100%;
-    height: fit-content;
     display: flex;
     justify-content: center;
     display: flex;
@@ -22,28 +20,41 @@
 }
 
 form {
-    max-width: 100%;
+    width: 35rem;
+    gap: 1.5rem;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 1.5rem;
+    justify-content: center;
 
     font-size: $font-size-h3;
 
 }
-
-input {
+.max-width {
+    width: 100%;
     display: flex;
-    border: initial;
-    background-color: initial;
-    color: initial;
-    border: 2px solid #0066FF;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 35rem;
+    display: flex;
+    border: 2px solid $primary-color-blue-dark-60;
     border-radius: 20px;
     padding: 0.5rem;
 }
 
+input:focus {
+    border: 3px solid $color-blue-light-70;
+}
+
+textarea:focus {
+    border-color: $color-blue-light-70;
+} 
+
 textarea {
-    border: 2px solid #0066FF;
+    width: 35rem;
+    border: 2px solid $primary-color-blue-dark-60;
     border-radius: 20px;
     padding: 0.5rem;
 }
@@ -56,4 +67,24 @@ input::placeholder {
 textarea::placeholder {
     font-size: $font-size-h3;
     color: $color-blue-dark-80;
+}
+
+[type="submit"] {
+    width: 25rem;
+    font-size: $font-size-h3;
+    display: flex;
+    justify-content: center;
+    background-color: $color-blue-light-80;
+    border-radius: 20px;
+
+    align-items: center;
+    padding: 0.2rem;
+
+    font-size: $font-size-h3;
+ color: $primary-color-blue-dark-60;
+ font-family:'Nanum Gothic Coding', monospace;
+}
+
+[type="submit"]:hover {
+    background-color: $color-blue-light-70;
 }
