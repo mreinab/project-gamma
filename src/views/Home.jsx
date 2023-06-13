@@ -14,14 +14,13 @@ import Design from "../components/OneCard/Design";
 import SoftSkills from "../components/OneCard/SoftSkills";
 import BtnMoreAboutLight from "../components/BtnMoreAboutLight/BtnMoreAboutLight";
 import IconSideMoon from "../components/IconSideMoon/IconSideMoon";
+import BoxWork from "../components/BoxWork/BoxWork";
 
 export default function Home() {
   return (
     <body>
       <BackgroundVideo />
-
       <Eclipse />
-
       <div className="animation__container--star">
         <video autoPlay loop muted className="animation--star">
           <source src="./star1.mp4" type="video/mp4" />
@@ -36,27 +35,21 @@ export default function Home() {
           _about me_
         </div>
       </section>
-
       <AboutMeIntro />
       <BtnMoreAbout />
       <Availability />
-
       <div className="grid--30">
         <SkillsRoundText />
       </div>
-
       <div className="grid--100">
         <IconSideStar />
       </div>
-
       <div className="section__division">
         <SectionLines />
       </div>
-
       <section className="section__container--AM">
         <div className="section__title">_my skills_</div>
       </section>
-
       <div className="cards__container">
         <div className="cards">
           <div className="stars__container">
@@ -92,17 +85,56 @@ export default function Home() {
         </div>
         <BtnMoreAboutLight className="color--lighter" />
       </div>
-
       <div className="grid--100">
         <IconSideMoon />
       </div>
-
       <div className="section__division">
         <SectionLines />
       </div>
-
       <section className="section__container--AM">
         <div className="section__title">_recent work_</div>
+      </section>
+      <div className="stars__container">
+        <img src="./star-3.svg" alt="star svg" className="img__star--left" />{" "}
+      </div>
+      <div className="padding__container">
+        <BoxWork
+          data={[
+            {
+              description: "Case Study",
+              title: "visual designer & frontend developer",
+              date: "2023",
+              url: " slikgazette.com",
+            },
+            {
+              description: "Case Study",
+              title: "visual designer & frontend developer",
+              date: "2023",
+              url: "thebwroom.com",
+            },
+            {
+              description: "Live Site",
+              title: "visual designer & frontend developer",
+              date: "2023",
+              url: "jygclubjuvenildemontana.com",
+            },
+            {
+              description: "Live Site",
+              title: "visual designer",
+              date: "2023",
+              url: "morangestudio.tumblr.com",
+            },
+          ]}
+        />
+      </div>
+      <div className="grid--100">
+        <IconSideMoon />
+      </div>
+      <div className="section__division">
+        <SectionLines />
+      </div>
+      <section className="section__container--AM">
+        <div className="section__title">_contact _</div>
       </section>
     </body>
   );
