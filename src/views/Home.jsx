@@ -15,6 +15,7 @@ import SoftSkills from "../components/OneCard/SoftSkills";
 import BtnMoreAboutLight from "../components/BtnMoreAboutLight/BtnMoreAboutLight";
 import IconSideMoon from "../components/IconSideMoon/IconSideMoon";
 import BoxWork from "../components/BoxWork/BoxWork";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 export default function Home() {
   return (
