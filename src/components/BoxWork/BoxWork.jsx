@@ -47,7 +47,7 @@ const BoxWork = ({ data }) => {
               </a>
             </div>
             <video autoPlay loop muted className="hidden">
-              <source src="./06_1596083776.mp4" type="video/mp4" />
+              <source src="./slikgazzete.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="work__container work__container--r1">
@@ -67,7 +67,7 @@ const BoxWork = ({ data }) => {
               </a>
             </div>
             <video autoPlay loop muted className="hidden">
-              <source src="./06_1596083776.mp4" type="video/mp4" />
+              <source src="./thebwroom.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -89,7 +89,7 @@ const BoxWork = ({ data }) => {
               </a>
             </div>
             <video autoPlay loop muted className="hidden">
-              <source src="./06_1596083776.mp4" type="video/mp4" />
+              <source src="./jygclub.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="work__container work__container--r2">
@@ -109,7 +109,7 @@ const BoxWork = ({ data }) => {
               </a>
             </div>
             <video autoPlay loop muted className="hidden">
-              <source src="./06_1596083776.mp4" type="video/mp4" />
+              <source src="./morangestudio.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

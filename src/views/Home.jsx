@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import "../views/Home.scss";
-import Topbar from "../components/topbar/Topbar";
 import Eclipse from "../components/Eclipse/Eclipse";
 import BackgroundVideo from "../components/backgroundvideo/BackgroundVideo";
 import AboutMeIntro from "../components/AboutMeIntro/AboutMeIntro";
@@ -23,11 +22,6 @@ export default function Home() {
     <body>
       <BackgroundVideo />
       <Eclipse />
-      <div className="animation__container--star">
-        <video autoPlay loop muted className="animation--star">
-          <source src="./star1.mp4" type="video/mp4" />
-        </video>
-      </div>
       <div className="text__main__container--vertical">
         <div className="h3 text--vertical"> 2023_ </div>
         <div className="h3 text"> (Based in Málaga and Valencia, Spain) </div>
