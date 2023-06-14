@@ -11,7 +11,7 @@ function Eclipse() {
       <img src="./main-eclipse2.svg" alt="Eclipse" className="img--eclipse" />
       <div className="cardContainer">
         <video autoPlay loop muted className="card3d">
-          <source src="../../../public/card3D.mp4" type="video/mp4" />
+          <source src="./card3D.mp4" type="video/mp4" />
         </video>
       </div>
 

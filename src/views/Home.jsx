@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <Eclipse />
       <div className="socialmedia__container">
-        <img className="socialmedia" src="../../public/socialmedia.svg"></img>
+        <img className="socialmedia" src="./socialmedia.svg"></img>
       </div>
       <div className="text__main__container--vertical">
         <div className="h3 text--vertical"> 2023_ </div>
