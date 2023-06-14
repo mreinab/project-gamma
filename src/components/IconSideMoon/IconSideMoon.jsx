@@ -5,7 +5,7 @@ const IconSideMoon = () => {
   return (
     <div className="iconSide">
       <video autoPlay loop muted className="iconSideMoon">
-        <source src="./cloud.webm" type="video/webm" />
+        <source src="./moon.mp4" type="video/mp4" />
       </video>
     </div>
   );

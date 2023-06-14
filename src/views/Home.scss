@@ -5,6 +5,25 @@
   background-color: $primary-color-white-chalk-60;
 }
 
+.starvideo {
+  position: absolute;
+  z-index: 9999;
+  width: 30rem;
+  background-color: aqua;
+}
+.socialmedia__container {
+  position: absolute;
+  width: 100%;
+  height: 93%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10rem;
+}
+.socialmedia {
+  width: 3%;
+}
+
 .animation__container--star {
   width: 100vw;
   height: 20%;

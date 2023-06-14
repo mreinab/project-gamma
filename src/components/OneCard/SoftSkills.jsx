@@ -7,7 +7,7 @@ function SoftSkills() {
       <div className="maincontainer">
         <div className="thecard">
           <img src="./card-softskills.svg" className="thefront"></img>
-          <img src="./card-frontend.svg" className="theback"></img>
+          <img src="./card-softskills-back.svg" className="theback"></img>
         </div>
       </div>
     </>

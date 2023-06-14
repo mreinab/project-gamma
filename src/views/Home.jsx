@@ -15,13 +15,22 @@ import BtnMoreAboutLight from "../components/BtnMoreAboutLight/BtnMoreAboutLight
 import IconSideMoon from "../components/IconSideMoon/IconSideMoon";
 import BoxWork from "../components/BoxWork/BoxWork";
 import ContactForm from "../components/ContactForm/ContactForm";
+import IconSideCloud from "../components/IconSideCloud/IconSideCloud";
 import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
     <body>
       <BackgroundVideo />
+      <div className="starvideo">
+        <video autoPlay loop muted>
+          <source src="../../../public/star1.mp4" type="video/mp4" />
+        </video>
+      </div>
       <Eclipse />
+      <div className="socialmedia__container">
+        <img className="socialmedia" src="../../public/socialmedia.svg"></img>
+      </div>
       <div className="text__main__container--vertical">
         <div className="h3 text--vertical"> 2023_ </div>
         <div className="h3 text"> (Based in Málaga and Valencia, Spain) </div>
@@ -124,7 +133,7 @@ export default function Home() {
         />
       </div>
       <div className="grid--100">
-        <IconSideMoon />
+        <IconSideCloud />
       </div>
       <div className="section__division">
         <SectionLines />

@@ -7,7 +7,7 @@ function FrontEnd() {
       <div className="maincontainer">
         <div className="thecard">
           <img src="./card-frontend.svg" className="thefront"></img>
-          <img src="./card-frontend.svg" className="theback"></img>
+          <img src="./card-frontend-back.svg" className="theback"></img>
         </div>
       </div>
     </>
